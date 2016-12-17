@@ -24,7 +24,6 @@
         android:textSize="18sp"/>
 
     <TableLayout
-        android:id="@+id/table"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -42,7 +41,12 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"/>
         </TableRow>
+    </TableLayout>
 
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     </TableLayout>
 
     <Button
